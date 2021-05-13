@@ -1,0 +1,24 @@
+{
+  "name": "stupid-project-doc-cli",
+  "version": "0.0.11",
+  "description": "",
+  "bin": {
+    "spd": "bin/stupid-project-doc.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yuanxiuchao",
+  "license": "MIT",
+  "repository": "Yxiuchao/stupid-project-doc-cli",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "del": "^6.0.0",
+    "fs-extra": "^9.1.0",
+    "gulp": "^4.0.2",
+    "resolve-bin": "^0.4.0",
+    "vuepress": "^1.8.2"
+  },
+  "homepage": "https://github.com/Yxiuchao/stupid-project-doc-cli"
+}
