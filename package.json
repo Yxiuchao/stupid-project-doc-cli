@@ -18,7 +18,8 @@
     "fs-extra": "^9.1.0",
     "gulp": "^4.0.2",
     "resolve-bin": "^0.4.0",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "chalk": "^4.1.1"
   },
   "homepage": "https://github.com/Yxiuchao/stupid-project-doc-cli"
 }

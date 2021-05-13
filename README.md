@@ -21,7 +21,6 @@ $ npm i stupid-project-doc-cli
 ```
 
 ## Usage
-
 ```bash
 $ spd <command> [options]
 
@@ -45,7 +44,7 @@ Commands:
   - default: `docs`
 ## config
 
-新建`spd.json`文件进行配置。配置项参考[vuepress config](https://vuepress.vuejs.org/zh/config/),在配置项中如果进行主题配置了`themeConfig`优先走配置文件，如果配置文件中不存在则依据项目中指定的文件夹自动生成。
+新建`.spd.js`文件或者`.spd.json`文件进行配置。配置项参考[vuepress config](https://vuepress.vuejs.org/zh/config/),在配置项中如果进行主题配置了`themeConfig`优先走配置文件，如果配置文件中不存在则依据项目中指定的文件夹自动生成。
 
 比如：
 
@@ -65,7 +64,7 @@ Commands:
 ## Generation rules
 
 - 解析指定`sourceDir`进行**md**文件的解析，将对应的md文件和图片生成到指定的路径。
-- 进行读取`spd.json`文件生成配置文件。
+- 进行读取`.spd.js`文件或者`.spd.json`文件生成配置文件。
   - 针对于用户自定义配置的配置直接保留。
   - 生成配置文件中`themeConfig`中的配置。生成的标题规则为对应的文件目录名。
 
