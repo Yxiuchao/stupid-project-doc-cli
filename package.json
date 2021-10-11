@@ -14,13 +14,14 @@
   "license": "MIT",
   "repository": "Yxiuchao/stupid-project-doc-cli",
   "dependencies": {
+    "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "del": "^6.0.0",
     "fs-extra": "^9.1.0",
     "gulp": "^4.0.2",
+    "lodash": "^4.17.21",
     "resolve-bin": "^0.4.0",
-    "vuepress": "^1.8.2",
-    "chalk": "^4.1.1"
+    "vitepress": "^0.19.1"
   },
   "homepage": "https://github.com/Yxiuchao/stupid-project-doc-cli"
 }
