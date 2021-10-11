@@ -4,7 +4,7 @@
 
 ## Features
 
-- 基于[vuepress](https://vuepress.vuejs.org/) 的文档功能。
+- 基于[vitepress](https://vitepress.vuejs.org/) 的文档功能。
 
 ## Installation
 
@@ -44,7 +44,7 @@ Commands:
   - default: `docs`
 ## config
 
-新建`.spd.js`文件或者`.spd.json`文件进行配置。配置项参考[vuepress config](https://vuepress.vuejs.org/zh/config/),在配置项中如果进行主题配置了`themeConfig`优先走配置文件，如果配置文件中不存在则依据项目中指定的文件夹自动生成。
+新建`.spd.js`文件或者`.spd.json`文件进行配置。配置项参考[vitepress config](https://vitepress.vuejs.org/zh/config/),在配置项中如果进行主题配置了`themeConfig`优先走配置文件，如果配置文件中不存在则依据项目中指定的文件夹自动生成。
 
 比如：
 
@@ -70,5 +70,4 @@ Commands:
 
 ## Warn Notice
 
-- `vuepress`中针对于`README.md`文件和`index.md`文件都会被识别为入口文件，所以请不要同一文件夹下同时存在这样两个文件。
 - 目前`spd`只做了对`md`文件和相对路径的图的解析，暂时还不支持其他hbs文件等。
