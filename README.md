@@ -44,7 +44,7 @@ Commands:
   - default: `docs`
 ## config
 
-新建`.spd.js`文件或者`.spd.json`文件进行配置。配置项参考[vitepress config](https://vitepress.vuejs.org/zh/config/),在配置项中如果进行主题配置了`themeConfig`优先走配置文件，如果配置文件中不存在则依据项目中指定的文件夹自动生成。
+新建`.spd.js`文件或者`.spd.json`文件进行配置。配置项参考[vitepress config](https://vitepress.vuejs.org/),在配置项中如果进行主题配置了`themeConfig`优先走配置文件，如果配置文件中不存在则依据项目中指定的文件夹自动生成。
 
 比如：
 
