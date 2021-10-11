@@ -1,6 +1,6 @@
 {
   "name": "stupid-project-doc-cli",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "description": "",
   "bin": {
     "spd": "bin/stupid-project-doc.js"
