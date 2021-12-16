@@ -21,7 +21,7 @@
     "gulp": "^4.0.2",
     "lodash": "^4.17.21",
     "resolve-bin": "^0.4.0",
-    "vitepress": "^0.19.1"
+    "vitepress": "^0.20.9"
   },
   "homepage": "https://github.com/Yxiuchao/stupid-project-doc-cli"
 }
