@@ -9,7 +9,6 @@ program
 program
 	.command('dev <sourceDir>') // 定义子命令
 	.description('start development server') // 命令描述，在使用-h（--help）时显示命令的描述信息
-	.option('-n, --no-nav', 'not automatically generate navigation') // 参数，使用该方法时，在help中存在[options]，可选
 	.action((...args) => { // handler中传入参数为命令定义、执行时传入的options，以及该命令对象本身；此处可获得src、-n 等
 		require('../lib/commands/dev.js')(...args); // 该命令运行时的操作
 	});
@@ -17,7 +16,6 @@ program
 program
 	.command('build <sourceDir>')
 	.description('build dir as static site')
-	.option('-n, --no-nav', 'not automatically generate navigation') // 不会自动生成顶部导航
 	.option('-o, --output <outputDir>', 'product output target loaction', 'docs') // 指定文档存放的目标目录
 	.action((...args) => {
 		require('../lib/commands/build.js')(...args);
