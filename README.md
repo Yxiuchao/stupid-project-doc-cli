@@ -33,12 +33,7 @@ Commands:
 
 目前只进行增加了`dev`命令和`build`命令，对于支持的命令行参数如下：
 
-- **-n, --no-nav**
-  - type: `boolean`
-  - default: `true`
-`-n`参数其实是`--no-nav`的简写，默认情况下不指定具体的值的时候不依据`sourceDir`下的一级文件夹生成对应的导航。
-
-对于`dev`和`build`命令来说都支持`-n`参数，同时对于`build`命令来说增加了`-o`参数。
+对于`build`命令支持了`-o`参数，支持指定文档存放目录。
 - **-o, --output <dest>**
   - type: `string`
   - default: `docs`
@@ -66,7 +61,7 @@ Commands:
 - 解析指定`sourceDir`进行**md**文件的解析，将对应的md文件和图片生成到指定的路径。
 - 进行读取`.spd.js`文件或者`.spd.json`文件生成配置文件。
   - 针对于用户自定义配置的配置直接保留。
-  - 生成配置文件中`themeConfig`中的配置。生成的标题规则为对应的文件目录名。
+  - 生成配置文件中`themeConfig`中的配置，根据文件夹结构和md文件中的`h1`标题生成目录结构。
 
 ## Warn Notice
 
